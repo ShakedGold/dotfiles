@@ -1,0 +1,17 @@
+[global]
+format = "<b>%s</b>\n%b"
+
+icon_path = "/usr/share/icons/"
+icon_theme = macOS-Monterey-White
+max_icon_size = 64
+enable_recursive_icon_lookup = true
+
+origin = top-right
+offset = 22x22
+frame_width = 2
+frame_color = "#03718C" #color1
+separator_color= frame
+font = "Fira Code 12"
+corner_radius = 7
+background = "#27221e" #background
+foreground = "#9ecfdc" #foreground

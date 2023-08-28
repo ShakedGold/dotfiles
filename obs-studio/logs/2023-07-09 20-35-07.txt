@@ -1,0 +1,118 @@
+20:35:07.187: Platform: Wayland
+20:35:07.187: CPU Name: AMD Ryzen 5 1600 Six-Core Processor
+20:35:07.187: CPU Speed: 3392.457MHz
+20:35:07.188: Physical Cores: 6, Logical Cores: 12
+20:35:07.188: Physical Memory: 7870MB Total, 223MB Free
+20:35:07.188: Kernel Version: Linux 6.4.1-arch2-1
+20:35:07.188: Distribution: "Arch Linux" Unknown
+20:35:07.188: Desktop Environment: Hyprland ()
+20:35:07.188: Session Type: wayland
+20:35:07.190: Qt Version: 6.5.1 (runtime), 6.5.1 (compiled)
+20:35:07.190: Portable mode: false
+20:35:07.233: OBS 29.1.3-1 (linux)
+20:35:07.233: ---------------------------------
+20:35:07.234: ---------------------------------
+20:35:07.234: audio settings reset:
+20:35:07.234: 	samples per sec: 48000
+20:35:07.234: 	speakers:        2
+20:35:07.234: 	max buffering:   960 milliseconds
+20:35:07.234: 	buffering type:  dynamically increasing
+20:35:07.235: ---------------------------------
+20:35:07.235: Initializing OpenGL...
+20:35:07.235: Using EGL/Wayland
+20:35:07.257: Initialized EGL 1.5
+20:35:07.278: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2
+20:35:07.278: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.54.03, shading language 3.30 NVIDIA via Cg compiler
+20:35:07.313: ---------------------------------
+20:35:07.313: video settings reset:
+20:35:07.313: 	base resolution:   1920x1080
+20:35:07.313: 	output resolution: 1920x1080
+20:35:07.313: 	downscale filter:  Bicubic
+20:35:07.313: 	fps:               60/1
+20:35:07.313: 	format:            NV12
+20:35:07.313: 	YUV mode:          Rec. 709/Partial
+20:35:07.313: NV12 texture support not available
+20:35:07.313: P010 texture support not available
+20:35:07.313: Audio monitoring device:
+20:35:07.313: 	name: Default
+20:35:07.313: 	id: default
+20:35:07.313: ---------------------------------
+20:35:07.320: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:35:07.328: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:35:07.334: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:35:07.334: Failed to initialize module 'decklink.so'
+20:35:07.480: [pipewire] Available captures:
+20:35:07.480: [pipewire]     - Desktop capture
+20:35:07.516: NVENC supported
+20:35:07.516: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+20:35:07.642: VAAPI: API version 1.18
+20:35:07.675: FFmpeg VAAPI H264 encoding supported
+20:35:07.771: FFmpeg VAAPI HEVC encoding supported
+20:35:07.854: ---------------------------------
+20:35:07.854:   Loaded Modules:
+20:35:07.854:     text-freetype2.so
+20:35:07.854:     rtmp-services.so
+20:35:07.854:     obs-x264.so
+20:35:07.854:     obs-vst.so
+20:35:07.854:     obs-transitions.so
+20:35:07.854:     obs-outputs.so
+20:35:07.854:     obs-libfdk.so
+20:35:07.854:     obs-filters.so
+20:35:07.854:     obs-ffmpeg.so
+20:35:07.854:     linux-v4l2.so
+20:35:07.854:     linux-pulseaudio.so
+20:35:07.854:     linux-pipewire.so
+20:35:07.854:     linux-jack.so
+20:35:07.854:     linux-capture.so
+20:35:07.854:     linux-alsa.so
+20:35:07.854:     image-source.so
+20:35:07.854:     frontend-tools.so
+20:35:07.854:     decklink-output-ui.so
+20:35:07.854:     decklink-captions.so
+20:35:07.854: ---------------------------------
+20:35:07.855: ==== Startup complete ===============================================
+20:35:07.901: All scene data cleared
+20:35:07.901: ------------------------------------------------
+20:35:07.906: pulse-input: Server name: 'pulseaudio 16.1'
+20:35:07.906: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+20:35:07.906: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_SteelSeries_GameDAC_000000000000-00.analog-stereo.monitor' (default)
+20:35:07.906: [Loaded global audio device]: 'Desktop Audio'
+20:35:07.906: pulse-input: Server name: 'pulseaudio 16.1'
+20:35:07.907: pulse-input: Audio format: s16le, 32000 Hz, 2 channels
+20:35:07.907: pulse-input: Started recording from 'alsa_input.usb-046d_HD_Pro_Webcam_C920_6E60D5AF-02.analog-stereo' (default)
+20:35:07.907: [Loaded global audio device]: 'Mic/Aux'
+20:35:07.907: PipeWire initialized
+20:35:07.909: Switched to scene 'Scene'
+20:35:07.909: ------------------------------------------------
+20:35:07.909: Loaded scenes:
+20:35:07.909: - scene 'Scene':
+20:35:07.909:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+20:35:07.909: ------------------------------------------------
+20:35:07.955: [pipewire] Screencast session created
+20:35:09.166: [pipewire] Asking for desktop
+20:35:09.174: [pipewire] desktop selected, setting up screencast
+20:35:09.183: [pipewire] Server version: 0.3.72
+20:35:09.183: [pipewire] Library version: 0.3.72
+20:35:09.183: [pipewire] Header version: 0.3.72
+20:35:09.183: [pipewire] Created stream 0x55e694c60720
+20:35:09.183: [pipewire] Stream 0x55e694c60720 state: "connecting" (error: none)
+20:35:09.183: [pipewire] Playing stream 0x55e694c60720
+20:35:09.184: [pipewire] Stream 0x55e694c60720 state: "paused" (error: none)
+20:35:09.187: [pipewire] Negotiated format:
+20:35:09.187: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:35:09.187: [pipewire]     Modifier: 0x0
+20:35:09.187: [pipewire]     Size: 1920x1080
+20:35:09.187: [pipewire]     Framerate: 0/1
+20:35:09.187: [pipewire] Negotiated format:
+20:35:09.187: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:35:09.187: [pipewire]     Modifier: 0x300000000cdb014
+20:35:09.187: [pipewire]     Size: 1920x1080
+20:35:09.187: [pipewire]     Framerate: 0/1
+20:35:09.188: [pipewire] Stream 0x55e694c60720 state: "streaming" (error: none)
+20:35:18.803: NV12 texture support not available
+20:35:18.803: P010 texture support not available
+20:35:18.807: Virtual camera started
+20:35:18.819: ==== Virtual Camera Start ==========================================
+20:35:18.821: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+21:24:26.702: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+21:24:26.702: 

@@ -1,0 +1,18 @@
+[discord-screenaudio]
+_k_friendly_name=discord-screenaudio
+toggleDeafen=none,none,Toggle Deafen
+toggleMute=none,none,Toggle Mute
+
+[org.kde.dolphin.desktop]
+_k_friendly_name=Dolphin
+_launch=Meta+E,Meta+E,Dolphin
+
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=Ctrl+Alt+T,Ctrl+Alt+T,Konsole
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=,F12,Open/Retract Yakuake

@@ -1,0 +1,116 @@
+23:30:34.687: Platform: Wayland
+23:30:34.687: CPU Name: AMD Ryzen 5 1600 Six-Core Processor
+23:30:34.687: CPU Speed: 1550.000MHz
+23:30:34.688: Physical Cores: 6, Logical Cores: 12
+23:30:34.688: Physical Memory: 15922MB Total, 10375MB Free
+23:30:34.688: Kernel Version: Linux 6.4.2-arch1-1
+23:30:34.688: Distribution: "Arch Linux" Unknown
+23:30:34.688: Desktop Environment: Hyprland ()
+23:30:34.688: Session Type: wayland
+23:30:34.690: Qt Version: 6.5.1 (runtime), 6.5.1 (compiled)
+23:30:34.690: Portable mode: false
+23:30:34.731: OBS 29.1.3-1 (linux)
+23:30:34.731: ---------------------------------
+23:30:34.732: ---------------------------------
+23:30:34.732: audio settings reset:
+23:30:34.732: 	samples per sec: 48000
+23:30:34.732: 	speakers:        2
+23:30:34.732: 	max buffering:   960 milliseconds
+23:30:34.732: 	buffering type:  dynamically increasing
+23:30:34.733: ---------------------------------
+23:30:34.733: Initializing OpenGL...
+23:30:34.733: Using EGL/Wayland
+23:30:34.744: Initialized EGL 1.5
+23:30:34.762: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2
+23:30:34.762: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.54.03, shading language 3.30 NVIDIA via Cg compiler
+23:30:34.792: ---------------------------------
+23:30:34.792: video settings reset:
+23:30:34.792: 	base resolution:   1920x1080
+23:30:34.792: 	output resolution: 1920x1080
+23:30:34.792: 	downscale filter:  Bicubic
+23:30:34.792: 	fps:               60/1
+23:30:34.792: 	format:            NV12
+23:30:34.792: 	YUV mode:          Rec. 709/Partial
+23:30:34.792: NV12 texture support not available
+23:30:34.792: P010 texture support not available
+23:30:34.792: Audio monitoring device:
+23:30:34.792: 	name: Default
+23:30:34.792: 	id: default
+23:30:34.792: ---------------------------------
+23:30:34.799: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:30:34.806: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+23:30:34.812: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:30:34.812: Failed to initialize module 'decklink.so'
+23:30:34.944: [pipewire] Available captures:
+23:30:34.944: [pipewire]     - Desktop capture
+23:30:34.979: NVENC supported
+23:30:34.980: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+23:30:35.093: VAAPI: API version 1.18
+23:30:35.127: FFmpeg VAAPI H264 encoding supported
+23:30:35.213: FFmpeg VAAPI HEVC encoding supported
+23:30:35.292: ---------------------------------
+23:30:35.293:   Loaded Modules:
+23:30:35.293:     text-freetype2.so
+23:30:35.293:     rtmp-services.so
+23:30:35.293:     obs-x264.so
+23:30:35.293:     obs-vst.so
+23:30:35.293:     obs-transitions.so
+23:30:35.293:     obs-outputs.so
+23:30:35.293:     obs-libfdk.so
+23:30:35.293:     obs-filters.so
+23:30:35.293:     obs-ffmpeg.so
+23:30:35.293:     linux-v4l2.so
+23:30:35.293:     linux-pulseaudio.so
+23:30:35.293:     linux-pipewire.so
+23:30:35.293:     linux-jack.so
+23:30:35.293:     linux-capture.so
+23:30:35.293:     linux-alsa.so
+23:30:35.293:     image-source.so
+23:30:35.293:     frontend-tools.so
+23:30:35.293:     decklink-output-ui.so
+23:30:35.293:     decklink-captions.so
+23:30:35.293: ---------------------------------
+23:30:35.293: ==== Startup complete ===============================================
+23:30:35.334: All scene data cleared
+23:30:35.334: ------------------------------------------------
+23:30:35.337: pulse-input: Server name: 'pulseaudio 16.1'
+23:30:35.337: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:30:35.337: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_SteelSeries_GameDAC_000000000000-00.analog-stereo.monitor' (default)
+23:30:35.337: [Loaded global audio device]: 'Desktop Audio'
+23:30:35.337: pulse-input: Server name: 'pulseaudio 16.1'
+23:30:35.337: pulse-input: Audio format: s16le, 32000 Hz, 2 channels
+23:30:35.337: pulse-input: Started recording from 'alsa_input.usb-046d_HD_Pro_Webcam_C920_6E60D5AF-02.analog-stereo' (default)
+23:30:35.338: [Loaded global audio device]: 'Mic/Aux'
+23:30:35.338: PipeWire initialized
+23:30:35.341: Switched to scene 'Scene'
+23:30:35.341: ------------------------------------------------
+23:30:35.341: Loaded scenes:
+23:30:35.341: - scene 'Scene':
+23:30:35.341:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+23:30:35.341: ------------------------------------------------
+23:30:35.407: [pipewire] Screencast session created
+23:30:37.973: [pipewire] Asking for desktop
+23:30:37.979: [pipewire] desktop selected, setting up screencast
+23:30:37.989: [pipewire] Server version: 0.3.73
+23:30:37.989: [pipewire] Library version: 0.3.73
+23:30:37.989: [pipewire] Header version: 0.3.72
+23:30:37.989: [pipewire] Created stream 0x555706d9ee70
+23:30:37.989: [pipewire] Stream 0x555706d9ee70 state: "connecting" (error: none)
+23:30:37.989: [pipewire] Playing stream 0x555706d9ee70
+23:30:37.990: [pipewire] Stream 0x555706d9ee70 state: "paused" (error: none)
+23:30:37.993: [pipewire] Negotiated format:
+23:30:37.993: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:30:37.993: [pipewire]     Modifier: 0x0
+23:30:37.993: [pipewire]     Size: 1920x1080
+23:30:37.993: [pipewire]     Framerate: 0/1
+23:30:37.993: [pipewire] Negotiated format:
+23:30:37.993: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:30:37.993: [pipewire]     Modifier: 0x300000000cdb014
+23:30:37.993: [pipewire]     Size: 1920x1080
+23:30:37.993: [pipewire]     Framerate: 0/1
+23:30:37.994: [pipewire] Stream 0x555706d9ee70 state: "streaming" (error: none)
+23:30:39.668: NV12 texture support not available
+23:30:39.668: P010 texture support not available
+23:30:39.673: Virtual camera started
+23:30:39.701: ==== Virtual Camera Start ==========================================
+23:30:39.705: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop

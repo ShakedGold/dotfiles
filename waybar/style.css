@@ -1,0 +1,103 @@
+@import url("colors-waybar.css");
+ 
+* {
+    border: none;
+    font-family: Font Awesome, Roboto, JetBrainsMono NF, Arial, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+window {
+	/*font-weight: bold;*/
+}
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+}
+/*-----module groups----*/
+.modules-right {
+	background-color: @background;
+    margin: 2px 10px 0 0;
+}
+.modules-center {
+	background-color: @background;
+    margin: 2px 0 0 0;
+}
+.modules-left {
+    margin: 2px 0 0 5px;
+	background-color: @color0;
+}
+/*-----modules indv----*/
+#workspaces button {
+    padding: 1px 5px;
+    background-color: transparent;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+	background-color: @color1;
+}
+
+#workspaces button.active {
+	background-color: @color2;
+}
+
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#custom-media,
+#mode,
+#custom-power,
+#custom-menu,
+#custom-spotify,
+#window,
+#idle_inhibitor {
+    padding: 0 10px;
+}
+
+#tray {
+    margin-left: 10px;
+}
+
+#clock {
+    margin-left: 10px;
+}
+
+#custom-spotify {
+    background-color: #1DB954;
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: black;
+}
+#custom-separator {
+    border-radius: 0;
+    margin-right: 10px;
+    color: #1DB954;
+    border-top: 10px solid #1DB954;
+    border-right: 5px solid transparent;
+}
+
+#mode {
+    color: @color4;
+    font-weight: bold;
+}
+#custom-power {
+    /*background-color: rgba(0,119,179,0.6);*/
+    border-radius: 100px;
+    margin: 5px 10px;
+    padding: 1px 1px 1px 4px;
+}
+/*-----Indicators----*/
+#idle_inhibitor.activated {
+    color: #2dcc36;
+}
+/*-----Colors----*/
+/*
+ *rgba(0,85,102,1),#005566 --> Indigo(dye)
+ *rgba(0,43,51,1),#002B33 --> Dark Green 
+ *rgba(0,153,153,1),#009999 --> Persian Green 
+ *
+ */

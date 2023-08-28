@@ -1,0 +1,89 @@
+{
+    "layer": "top",
+	"position": "top",
+    "modules-left": ["wlr/workspaces"],
+    "modules-center": ["hyprland/window"],
+    /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
+    "modules-right": ["custom/spotify","custom/separator", "custom/pacman", "pulseaudio", "hyprland/language", "tray", "clock", "custom/power"],
+
+    "hyprland/language": {
+        "on-click": "hyprctl switchxkblayout razer-razer-huntsman-keyboard next"
+    },
+    "wlr/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "wlr/workspaces": {
+        "all-outputs": true,
+        "on-click": "activate"
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "separate-outputs": true
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ifname} ",
+        "format-disconnected": "", 
+        "max-length": 50,
+        "on-click": "alacritty -e 'nmtui'"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+		"on-click": "toggleRemote"
+    },
+    "custom/spotify": {
+        "exec": "/usr/bin/python3 /home/shaked/.config/waybar/scripts/mediaplayer.py --player spotify",
+        "format": "{}  ",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
+    "custom/separator": {
+        "format": "",
+        "tooltip": false
+      },
+    "custom/pacman": {
+        "format": "{}  ",
+        "interval": 3600,                     // every hour
+        "exec": "checkupdates | wc -l",       // # of updates
+        "exec-if": "exit 0",                  // always run; consider advanced run conditions
+        "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
+        "signal": 8
+    },
+    "tray": {
+        "icon-size": 15,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d / %m / %Y}",
+		//"on-click": "gnome-calendar"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} ",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "0% {icon} ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+	"custom/power": {
+		"format": " ",
+		"on-click": "sh /home/shaked/.config/rofi/powermenu/type-3/powermenu.sh"
+	}
+}
